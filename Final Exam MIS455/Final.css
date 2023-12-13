@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url(/Images/Cover.jpg);
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .weather {
+    margin-top: 20px;
+  }
+
+  input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
